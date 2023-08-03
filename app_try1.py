@@ -1,7 +1,7 @@
 import streamlit as st
 import re
 import pandas as pd
-python3 -m scikit-learn download en
+pip install -r requirements.txt
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import LabelEncoder
